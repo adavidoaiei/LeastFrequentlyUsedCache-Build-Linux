@@ -1,7 +1,8 @@
 ## Overview 
 
 The idea behind least frequently cache policy is that for each item from cache it keeps a use count which increments each time when the item is accessed, when cache exceed the limit this evicts(removes) the element with minimum use count freeing memory for a new element.
-I updated to work under Linux, I used NUnit for unit tests and Visual Studio Code.
+
+**I updated to work under Linux, I used NUnit for unit tests and Visual Studio Code.**
 
 ## Installation 
 
