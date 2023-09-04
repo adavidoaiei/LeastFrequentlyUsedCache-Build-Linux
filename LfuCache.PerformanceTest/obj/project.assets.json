@@ -1981,11 +1981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LfuCache.PerformanceTest/LfuCache.PerformanceTest.csproj",
+      "projectUniqueName": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.PerformanceTest/LfuCache.PerformanceTest.csproj",
       "projectName": "LfuCache.PerformanceTest",
-      "projectPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LfuCache.PerformanceTest/LfuCache.PerformanceTest.csproj",
+      "projectPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.PerformanceTest/LfuCache.PerformanceTest.csproj",
       "packagesPath": "/home/adavidoaiei/.nuget/packages/",
-      "outputPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LfuCache.PerformanceTest/obj/",
+      "outputPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.PerformanceTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/adavidoaiei/.nuget/NuGet/NuGet.Config"
@@ -2000,8 +2000,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LFUCache/LFUCache.csproj": {
-              "projectPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LFUCache/LFUCache.csproj"
+            "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj": {
+              "projectPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj"
             }
           }
         }
@@ -2041,7 +2041,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

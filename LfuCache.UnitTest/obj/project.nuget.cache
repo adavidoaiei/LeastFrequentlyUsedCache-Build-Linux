@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FuGnSJts7DunGUpaMi745oV0uT9ipoZI64cJ952Atb79X8YgdMxrOMREi3H4kslHdJZ307qCjtillARAQJ5kxA==",
+  "dgSpecHash": "BT9KQ7HhpBbVRAPX4TwMycjPj/FpKfdctlq+438t+mpOcCGep4FuFtgjaak98wpHNWXaR7GxwXL0PDolCxoc5Q==",
   "success": true,
-  "projectFilePath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LfuCache.UnitTest/LfuCache.UnitTest.csproj",
+  "projectFilePath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj",
   "expectedPackageFiles": [
     "/home/adavidoaiei/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/home/adavidoaiei/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",

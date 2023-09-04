@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NVq35EHRY09oLx7r5Z73/eVX/0LjJLDlj4MGovH0VXGmYUrFgqeoKgjQNzKcx/3tPP7WxlVoGn1fpQG9Hse3Qw==",
+  "dgSpecHash": "CLBFin/1wwFvzod6b/u1zLBIoXhk16hBjyI1rWPea7GyPZkrlZ9WQiubDS8ay7BiViahaIpRGK3Iip9YU7dQmg==",
   "success": true,
-  "projectFilePath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LfuCache.PerformanceTest/LfuCache.PerformanceTest.csproj",
+  "projectFilePath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.PerformanceTest/LfuCache.PerformanceTest.csproj",
   "expectedPackageFiles": [
     "/home/adavidoaiei/.nuget/packages/benchmarkdotnet/0.13.6/benchmarkdotnet.0.13.6.nupkg.sha512",
     "/home/adavidoaiei/.nuget/packages/benchmarkdotnet.annotations/0.13.6/benchmarkdotnet.annotations.0.13.6.nupkg.sha512",

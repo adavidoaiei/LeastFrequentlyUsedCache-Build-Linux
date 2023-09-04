@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LFUCache/LFUCache.csproj",
+      "projectUniqueName": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj",
       "projectName": "LFUCache",
-      "projectPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LFUCache/LFUCache.csproj",
+      "projectPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj",
       "packagesPath": "/home/adavidoaiei/.nuget/packages/",
-      "outputPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache/LFUCache/obj/",
+      "outputPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/adavidoaiei/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
