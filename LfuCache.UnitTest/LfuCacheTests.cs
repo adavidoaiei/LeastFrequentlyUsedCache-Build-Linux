@@ -10,7 +10,7 @@ namespace LfuCache.UnitTest
         [SetUp]
         public void BeforeEach()
         {
-            _lfuCache = new LfuCache<string, string>(3);
+            _lfuCache = new LfuCache<string, string>(3); 
         }
 
         [Test]
