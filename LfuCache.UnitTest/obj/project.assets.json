@@ -3973,7 +3973,8 @@
     ]
   },
   "packageFolders": {
-    "/home/adavidoaiei/.nuget/packages/": {}
+    "/home/adavidoaiei/.nuget/packages/": {},
+    "/home/adavidoaiei/.local/share/godot/mono/GodotNuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3984,8 +3985,12 @@
       "packagesPath": "/home/adavidoaiei/.nuget/packages/",
       "outputPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/home/adavidoaiei/.local/share/godot/mono/GodotNuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/adavidoaiei/.nuget/NuGet/NuGet.Config"
+        "/home/adavidoaiei/.nuget/NuGet/NuGet.Config",
+        "/home/adavidoaiei/.nuget/NuGet/config/Godot.Offline.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -4050,7 +4055,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }
