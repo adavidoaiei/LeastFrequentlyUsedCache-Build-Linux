@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EoJj/atRrFpoJtKzmGSPH1J3ah4i+I9mkVFmpLaV2gkgD0KrU+iAObCCYdx1Ya/jedHj4IfQg/MYkAHO5pKR2Q==",
+  "dgSpecHash": "sS4XpxUP4f0=",
   "success": true,
-  "projectFilePath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj",
+  "projectFilePath": "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj",
   "expectedPackageFiles": [
     "/home/adavidoaiei/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/home/adavidoaiei/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",
@@ -50,7 +50,9 @@
     "/home/adavidoaiei/.nuget/packages/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512",
     "/home/adavidoaiei/.nuget/packages/system.threading.tasks.extensions/4.0.0/system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "/home/adavidoaiei/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "/home/adavidoaiei/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512"
+    "/home/adavidoaiei/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
+    "/home/adavidoaiei/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/adavidoaiei/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

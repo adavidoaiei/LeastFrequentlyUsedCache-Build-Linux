@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj": {}
+    "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj": {}
   },
   "projects": {
-    "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj": {
+    "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj",
+        "projectUniqueName": "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj",
         "projectName": "LFUCache",
-        "projectPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj",
+        "projectPath": "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj",
         "packagesPath": "/home/adavidoaiei/.nuget/packages/",
-        "outputPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/obj/",
+        "outputPath": "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LFUCache/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/home/adavidoaiei/.local/share/godot/mono/GodotNuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/adavidoaiei/.nuget/NuGet/NuGet.Config",
-          "/home/adavidoaiei/.nuget/NuGet/config/Godot.Offline.Config"
+          "/home/adavidoaiei/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -36,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -52,30 +53,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj": {
+    "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj",
+        "projectUniqueName": "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj",
         "projectName": "LfuCache.UnitTest",
-        "projectPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj",
+        "projectPath": "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj",
         "packagesPath": "/home/adavidoaiei/.nuget/packages/",
-        "outputPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/obj/",
+        "outputPath": "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/home/adavidoaiei/.local/share/godot/mono/GodotNuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/adavidoaiei/.nuget/NuGet/NuGet.Config",
-          "/home/adavidoaiei/.nuget/NuGet/config/Godot.Offline.Config"
+          "/home/adavidoaiei/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -87,8 +94,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj": {
-                "projectPath": "/home/adavidoaiei/Downloads/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj"
+              "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj": {
+                "projectPath": "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LFUCache/LFUCache.csproj"
               }
             }
           }
@@ -97,6 +104,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -135,12 +147,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
         }
       }
     }

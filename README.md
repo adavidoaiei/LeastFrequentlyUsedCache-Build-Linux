@@ -1,18 +1,20 @@
+# LFU Cache Implementation
+
 ## Overview 
 
-The idea behind least frequently cache policy is that for each item from cache it keeps a use count which increments each time when the item is accessed, when cache exceed the limit this evicts(removes) the element with minimum use count freeing memory for a new element.
+A Least Frequently Used (LFU) Cache implementation in .NET that evicts items based on their usage frequency. Each cached item maintains a usage counter that increments upon access. When the cache reaches its capacity limit, it removes the item with the lowest usage count to free up space.
 
-**I updated to work under Linux, I used NUnit in place of MSTest for unit tests and Visual Studio Code.**
+**Note:** This project has been updated to run on Linux using NUnit for testing and Visual Studio Code as the development environment.
 
 ## Installation 
 
-NuGet package manager:
+Install via NuGet Package Manager:
 
 ```
 Install-Package LfuCache -Version 1.0.0
 ```
 
-## Example Using
+## Usage Example
 
 ```csharp
 ICache<string, string> cache = new LfuCache<string, string>(1000);
@@ -21,35 +23,51 @@ cache.Add("surname", "Stuart");
 var name = cache.Get("name");
 ```
 
-## Implementation
+## Technical Implementation
 
-The <b>LfuCache</b> implements interface <b>ICache</b>.<br>
+The `LfuCache` class implements the `ICache` interface:
+
 <img src="https://res.cloudinary.com/dbvcampra/image/upload/v1582909400/diagram_xkbden.png" />
 
-It's needed a data structure to store elements from cache sorted by use count, the current implementation uses a SortedList where key is use count and Value is LinkedList of elements from cache with the same use count, SortedList sorts LinkedLists by use count using a binary tree.
-This data structure allows to run Add/Get operations in O(log n) time.
+### Data Structure
+
+The implementation uses a hybrid data structure combining:
+- A `SortedList` where the key is the usage count
+- A `LinkedList` as the value, containing all elements with the same usage count
+
+This structure is organized as a binary tree of linked lists, enabling O(log n) time complexity for both Add and Get operations.
 
 <img width="800px" height="400px" src="https://res.cloudinary.com/dbvcampra/image/upload/v1556623202/binary_tree_linked_list_r9zgzj.jpg" />
 
-## Performance benchmark <br>
+## Performance
 
-1000.000 add/get operations on implemented Least Frequently Used Cache of size 90.000 using elements from a list with 100.000 takes 466ms.
+### Benchmark Results
+
+The cache demonstrates impressive performance:
+- 1,000,000 add/get operations
+- Cache size: 90,000 items
+- Dataset size: 100,000 elements
+- Execution time: 466ms
 
 <img src="http://res.cloudinary.com/dbvcampra/image/upload/v1469634935/lfu_syqnac.png" />
 
-This cache runs faster than MemoryCache from .NET Framework and consumes less memory than this on the same benchmark.
+Compared to .NET Framework's MemoryCache, this implementation:
+- Executes faster
+- Uses less memory
+- Maintains consistent performance
 
 <img src="http://res.cloudinary.com/dbvcampra/image/upload/v1469634935/mc_ikzrsm.png" />
 
-The Add/Get operations sequence is generated random in an operations array of size OperationsCount, this operations process elements from a list of size EelementsCount using selected cache.
-
-Performance benchmarks have been run with the following library <a href="https://benchmarkdotnet.org/" target="_blank">PerformanceDotNet</a>.
+The benchmarks:
+- Use randomly generated Add/Get operation sequences
+- Process elements from a fixed-size list
+- Are conducted using [BenchmarkDotNet](https://benchmarkdotnet.org/)
 
 <img src="https://res.cloudinary.com/dbvcampra/image/upload/v1556225816/benchmarks_gqqzru.png" />
 
-## Unit Tests Code Coverage 
+## Testing
 
-The unit tests are written using <strong>MSTest framework</strong> and the code coverage report is generated with Azure Pipeline.
+Unit tests are written using the NUnit framework with comprehensive code coverage tracked through Azure Pipeline.
 
 <img src="https://res.cloudinary.com/dbvcampra/image/upload/v1556279286/code_coverage_lzv2si.png" />
 
