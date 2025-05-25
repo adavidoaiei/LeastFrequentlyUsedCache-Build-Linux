@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LFUCache")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cbdcf9505b9e84d2ae5b9c6431221e4230a831a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2730e35ccaa546ec73607e48607ee51e20ae7f4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("LFUCache")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LFUCache")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

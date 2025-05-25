@@ -59,7 +59,7 @@ Compared to .NET Framework's MemoryCache, this implementation:
 <img src="http://res.cloudinary.com/dbvcampra/image/upload/v1469634935/mc_ikzrsm.png" />
 
 The benchmarks:
-- Use randomly generated Add/Get operation sequences
+- Use randomly generated Add/Get operation sequences in `BitArray`
 - Process elements from a fixed-size list
 - Are conducted using [BenchmarkDotNet](https://benchmarkdotnet.org/)
 
