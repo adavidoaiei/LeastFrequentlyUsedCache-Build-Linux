@@ -27,9 +27,9 @@ namespace LfuCache.UnitTest
             var three = _lfuCache.Get("3");
 
             // Assert
-            Assert.AreEqual("one", one);
-            Assert.AreEqual("two", two);
-            Assert.AreEqual("three", three);
+            Assert.That(one, Is.EqualTo("one"));
+            Assert.That(two, Is.EqualTo("two"));
+            Assert.That(three, Is.EqualTo("three"));
         }
 
         [Test]
@@ -53,8 +53,8 @@ namespace LfuCache.UnitTest
             var two = _lfuCache.Get("2");
 
             // Assert
-            Assert.IsNull(one);
-            Assert.AreEqual("two", two);
+            Assert.That(one, Is.Null);
+            Assert.That(two, Is.EqualTo("two"));
         }
 
         [Test]
@@ -84,10 +84,10 @@ namespace LfuCache.UnitTest
             var four = _lfuCache.Get("4");
 
             // Assert
-            Assert.AreEqual("one", one);
-            Assert.IsNull(two);
-            Assert.AreEqual("three", three);
-            Assert.AreEqual("four", four);
+            Assert.That(one, Is.EqualTo("one"));
+            Assert.That(two, Is.Null);
+            Assert.That(three, Is.EqualTo("three"));
+            Assert.That(four, Is.EqualTo("four"));
         }
 
 #if DEBUG
@@ -96,7 +96,7 @@ namespace LfuCache.UnitTest
         {
             _lfuCache.EvictEvent += delegate(string value)
             {
-                Assert.AreEqual("two", value);
+                Assert.That(value, Is.EqualTo("two"));
             };
 
             _lfuCache.Add("1", "one");
