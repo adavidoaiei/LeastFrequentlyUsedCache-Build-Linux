@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFUCache", "LFUCache\LFUCache.csproj", "{2E677A4A-59D9-46DB-A529-3101DEECE746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LFUCache", "LFUCache\LFUCache.csproj", "{2E677A4A-59D9-46DB-A529-3101DEECE746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LfuCache.UnitTest", "LfuCache.UnitTest\LfuCache.UnitTest.csproj", "{62A8EB56-5814-4BA3-AA03-FD887E40FD3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LfuCache.UnitTest", "LfuCache.UnitTest\LfuCache.UnitTest.csproj", "{62A8EB56-5814-4BA3-AA03-FD887E40FD3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LfuCache.PerformanceTest", "LfuCache.PerformanceTest\LfuCache.PerformanceTest.csproj", "{7DBA5DCE-C889-4D2F-9CE1-DD97528EB438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LfuCache.PerformanceTest", "LfuCache.PerformanceTest\LfuCache.PerformanceTest.csproj", "{7DBA5DCE-C889-4D2F-9CE1-DD97528EB438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

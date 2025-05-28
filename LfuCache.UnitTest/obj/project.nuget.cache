@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sS4XpxUP4f0=",
+  "dgSpecHash": "h7EPRrOaS1M=",
   "success": true,
   "projectFilePath": "/home/adavidoaiei/Desktop/LeastFrequentlyUsedCache-Build-Linux/LfuCache.UnitTest/LfuCache.UnitTest.csproj",
   "expectedPackageFiles": [
@@ -50,9 +50,7 @@
     "/home/adavidoaiei/.nuget/packages/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512",
     "/home/adavidoaiei/.nuget/packages/system.threading.tasks.extensions/4.0.0/system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "/home/adavidoaiei/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "/home/adavidoaiei/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
-    "/home/adavidoaiei/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/home/adavidoaiei/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+    "/home/adavidoaiei/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
   "logs": []
 }
