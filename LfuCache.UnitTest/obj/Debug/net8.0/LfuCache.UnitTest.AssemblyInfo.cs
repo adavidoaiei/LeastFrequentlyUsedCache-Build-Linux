@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LfuCache.UnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d39b6d30ecef397c0d9288d868682699aab0ef02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66649a51ea06076ae0a865f3b3cf2e0de9bbc0f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LfuCache.UnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LfuCache.UnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
