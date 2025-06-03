@@ -3,7 +3,7 @@ bin/
 obj/
 
 # Visual Studio Code
-#.vscode/
+.vscode/
 *.suo
 *.user
 .vs/
