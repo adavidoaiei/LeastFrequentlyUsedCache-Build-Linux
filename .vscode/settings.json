@@ -1,4 +1,0 @@
-{
-    "dotnet.defaultSolution": "LFUCache.sln",
-    "dotnet-test-explorer.testProjectPath": "LfuCache.UnitTest//LfuCache.UnitTest.csproj",
-}
