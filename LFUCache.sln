@@ -5,9 +5,9 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LFUCache", "LFUCache\LFUCache.csproj", "{2E677A4A-59D9-46DB-A529-3101DEECE746}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LfuCache.UnitTest", "LfuCache.UnitTest\LfuCache.UnitTest.csproj", "{62A8EB56-5814-4BA3-AA03-FD887E40FD3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LFUCache.UnitTest", "LFUCache.UnitTest\LFUCache.UnitTest.csproj", "{62A8EB56-5814-4BA3-AA03-FD887E40FD3A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LfuCache.PerformanceTest", "LfuCache.PerformanceTest\LfuCache.PerformanceTest.csproj", "{7DBA5DCE-C889-4D2F-9CE1-DD97528EB438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LFUCache.PerformanceTest", "LFUCache.PerformanceTest\LFUCache.PerformanceTest.csproj", "{7DBA5DCE-C889-4D2F-9CE1-DD97528EB438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
