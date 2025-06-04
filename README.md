@@ -27,7 +27,7 @@ var name = cache.Get("name");
 
 The `LfuCache` class implements the `ICache` interface:
 
-![Class Diagram](https://res.cloudinary.com/dbvcampra/image/upload/v1582909400/diagram_xkbden.png)
+![Class Diagram](images/diagram_xkbden.png)
 
 ### Data Structure
 
@@ -37,7 +37,7 @@ The implementation uses a hybrid data structure combining:
 
 This structure is organized as a binary tree of linked lists, enabling O(log n) time complexity for both Add and Get operations.
 
-![Binary Tree and Linked List Structure](https://res.cloudinary.com/dbvcampra/image/upload/v1556623202/binary_tree_linked_list_r9zgzj.jpg)
+![Binary Tree and Linked List Structure](images/binary_tree_linked_list_r9zgzj.jpg)
 
 ## Performance
 
@@ -49,27 +49,27 @@ The cache demonstrates impressive performance:
 - Dataset size: 100,000 elements
 - Execution time: 466ms
 
-![LFU Cache Performance](http://res.cloudinary.com/dbvcampra/image/upload/v1469634935/lfu_syqnac.png)
+![LFU Cache Performance](images/lfu_syqnac.png)
 
 Compared to .NET Framework's MemoryCache, this implementation:
 - Executes faster
 - Uses less memory
 - Maintains consistent performance
 
-![Memory Cache Performance Comparison](http://res.cloudinary.com/dbvcampra/image/upload/v1469634935/mc_ikzrsm.png)
+![Memory Cache Performance Comparison](images/mc_ikzrsm.png)
 
 The benchmarks:
 - Use randomly generated Add/Get operation sequences in `BitArray`
 - Process elements from a fixed-size list
 - Are conducted using [BenchmarkDotNet](https://benchmarkdotnet.org/)
 
-![Benchmark Results](https://res.cloudinary.com/dbvcampra/image/upload/v1556225816/benchmarks_gqqzru.png)
+![Benchmark Results](images/benchmarks_gqqzru.png)
 
 ## Testing
 
 Unit tests are written using the NUnit framework with comprehensive code coverage tracked through Azure Pipeline.
 
-![Code Coverage Report](https://res.cloudinary.com/dbvcampra/image/upload/v1556279286/code_coverage_lzv2si.png)
+![Code Coverage Report](images/code_coverage_lzv2si.png)
 
 
 
