@@ -2,7 +2,8 @@
 
 ## Overview 
 
-A Least Frequently Used (LFU) Cache implementation in .NET that evicts items based on their usage frequency. Each cached item maintains a usage counter that increments upon access. When the cache reaches its capacity limit, it removes the item with the lowest usage count to free up space.
+A Least Frequently Used (LFU) Cache cross platform
+(Windows/Linux/etc) implementation in .NET that evicts items based on their usage frequency. Each cached item maintains a usage counter that increments upon access. When the cache reaches its capacity limit, it removes the item with the lowest usage count to free up space.
 
 **Note:** This project has been updated to run on Linux using NUnit for testing and Visual Studio Code as the development environment.
 
