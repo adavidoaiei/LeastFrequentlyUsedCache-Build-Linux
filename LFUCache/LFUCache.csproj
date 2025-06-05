@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     <PackageId>LFUCache</PackageId>
     <Version>1.0.2</Version>
-    <Authors>adavidoaiei</Authors>
-    <Company>adavidoaiei</Company>
+    <Authors>Adavidoaiei Dumitru-Cornel</Authors>
+    <RepositoryUrl>https://github.com/adavidoaiei/LeastFrequentlyUsedCache-Build-Linux</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
