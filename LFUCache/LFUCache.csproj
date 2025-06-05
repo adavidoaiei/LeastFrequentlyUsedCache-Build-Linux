@@ -7,7 +7,7 @@
     <PackageId>LFUCache</PackageId>
     <Version>1.0.2</Version>
     <Authors>Adavidoaiei Dumitru-Cornel</Authors>
-    <RepositoryUrl>https://github.com/adavidoaiei/LeastFrequentlyUsedCache-Build-Linux</RepositoryUrl>
+    <RepositoryUrl>https://github.com/adavidoaiei/LeastFrequentlyUsedCache-Cross-Platform</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
