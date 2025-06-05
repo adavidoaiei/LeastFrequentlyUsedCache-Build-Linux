@@ -11,7 +11,7 @@ A Least Frequently Used (LFU) Cache implementation in .NET that evicts items bas
 Install via NuGet Package Manager:
 
 ```
-Install-Package LfuCache -Version 1.0.2
+Install-Package LFUCache -Version 1.0.2
 ```
 
 ## Usage Example
